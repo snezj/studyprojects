@@ -3,10 +3,20 @@ header, footer {
 }
 
 header  {
-	height:300px;
+	height:885px;
 }
 
 .green{
 	background-color:#c6ddcd;
-	height:300px;
+	height:885px;
+}
+.space {
+	height:885px;
+}
+.space .column-left {
+	background-color:lightyellow;
+}
+
+.space .column-right {
+	background-image: url(images/enjoy.jpg);
 }
