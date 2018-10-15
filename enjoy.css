@@ -2,6 +2,11 @@ header, footer {
 	background-color: white;
 }
 
-.intro {
-	background-color:#f6f7f8;
+header  {
+	height:300px;
+}
+
+.green{
+	background-color:#c6ddcd;
+	height:300px;
 }
