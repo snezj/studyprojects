@@ -3,45 +3,106 @@ header, footer {
 }
 
 header  {
-	height:885px;
+	height:auto;
+	padding:5em;
 }
 
 .green	{
 	background-color:#c6ddcd;
-	height:885px;
+	height:auto;
 }
 
-.space {
-	height:855px;
+.space , .mixmatch, .media, .partners, .textsection {
+	height:auto;
+	display:flex;
+	margin:10px 0px;
+}
+
+.mixmatch .column-left {
+	background-color:#AACFDA;
+	width:60%;
+}
+
+.space .column-left,  {
+	background-color:#EAC983;
+	width:60%;
+}
+
+.media .column-right  {
+	background-color:#EAC983;
+	width:50%;
+}
+
+.space .column-right, .mixmatch .column-right, .media .column-left   {
+	width:80%;
+	padding:0px !important;
+}
+
+.column-right img, .column-left img{
+	width:100%;
+	height:685px;
+}
+
+
+.textsection .column-right, .textsection .column-left {
+	width:45%;
+	padding:5em !important;
+}
+
+.empty {
+	width:2%;
+}
+
+.furniture {
 	display:flex;
 }
-
-.space .column-left	{
-	background-color:lightyellow;
-}
-
-.space .column-right img{
+.furniture .column-left {
 	width:100%;
-	height:885px;
+	padding:0px !important;
 }
 
+.furniture .column-right {
+	width:60%;
+	background-color:#C5CADD;
+}
 
-
-h1 {
-	font-size:6.4em;
+h1, h2, h3 {
+	font-size:5.4em;
 	font-family: 'Bowlby One SC', cursive;
 }
 
-p {
-	font-family: 'Teko', sans-serif;
-	font-size:4.4em;
-	text-align:justify;
+h2	{
+	font-size:2.4em;
 }
 
-span.pink-border {
-	text-decoration: underline;
-	text-decoration-color: pink;
-	-moz-text-decoration-color: pink;
+h3 {
+	font-size:2em;
+}
+
+p, .textsection .column-left p {
+	font-family: 'Teko', sans-serif;
+	font-size: 4.3em;
+
+}
+
+p.small {
+	font-size:2em;
+}
+
+p.xs {
+	font-size:1.4em;
+}
+
+.column-left {
+	padding:5em;
+}
+.column-right {
+	padding:5em;
+}
+
+.green p {
+	font-family: 'Teko', sans-serif;
+	font-size:1.8em;
 }
 
 span.pink-border {
@@ -61,4 +122,59 @@ span.yellow-border {
 	text-decoration-color: #EAC983;
 	-moz-text-decoration-color: #EAC983;
 }
+
+span.white-border {
+	text-decoration: underline;
+	text-decoration-color: white;
+	-moz-text-decoration-color: white;
+}
+
+span.gray-border {
+	text-decoration: underline;
+	text-decoration-color: lightslategray;
+	-moz-text-decoration-color: lightslategray;
+}
+
+.textsectionbot {
+	height:385px !important;
+}
+
+footer {
+	display:flex;
+}
+
+.sponsor {
+	width:50%;
+	padding:5em;
+}
+
+.adress, .socialnetwork{
+	width:30%;
+	padding:5em;
+}
+
+.partners {
+	height:auto;
+}
+
+.partners .text{
+	font-size:4.3em !important;
+	font-family: 'Teko', sans-serif;
+	vertical-align:center;
+}
+
+a {
+	color:black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-shadow: 2px 2px 3px orange;
+	transform: translate(1.5px 1.5px);
+	-webkit-transform: translate(1.5px 1.5px);
+	-moz-transform: translate(1.5px 1.5px);
+	-ms-transform: translate(1.5px 1.5px);
+	-o-transform: translate(1.5px 1.5px);
+}
+
 
